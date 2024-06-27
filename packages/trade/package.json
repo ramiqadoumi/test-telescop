@@ -1,11 +1,11 @@
 {
-  "name": "@ramiqadoumi/trade",
-  "version": "0.0.1",
+  "name": "test-telescope",
+  "version": "0.0.3",
   "author": "rami <taharami532@gmail.com>",
   "description": "test",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "module": "esm/index.js",
-  "types": "index.d.ts",
   "homepage": "https://github.com/ramiqadoumi/trade",
   "license": "SEE LICENSE IN LICENSE",
   "publishConfig": {
@@ -30,7 +30,8 @@
     "test:watch": "jest --watch"
   },
   "devDependencies": {
-    "@cosmology/telescope": "^1.8.1"
+    "@cosmology/telescope": "^1.8.1",
+    "@protobufs/cosmos": "^0.1.0"
   },
   "dependencies": {
     "@cosmjs/amino": "^0.32.4",
