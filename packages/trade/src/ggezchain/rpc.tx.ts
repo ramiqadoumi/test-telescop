@@ -25,6 +25,9 @@ export const createRPCMsgClient = async ({
     group: {
       v1: new (await import("../cosmos/group/v1/tx.rpc.msg")).MsgClientImpl(rpc)
     },
+    slashing: {
+      v1beta1: new (await import("../cosmos/slashing/v1beta1/tx.rpc.msg")).MsgClientImpl(rpc)
+    },
     staking: {
       v1beta1: new (await import("../cosmos/staking/v1beta1/tx.rpc.msg")).MsgClientImpl(rpc)
     },

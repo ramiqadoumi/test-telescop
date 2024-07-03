@@ -38,7 +38,7 @@ export const options: TelescopeInput = {
           'cosmos.capability.v1beta1',
           'cosmos.orm.v1alpha1',
           'cosmos.orm.v1',
-          'cosmos.slashing.v1beta1',
+          // 'cosmos.slashing.v1beta1',
           'google.api',
           'ibc.core.port.v1',
           'ibc.core.types.v1'
